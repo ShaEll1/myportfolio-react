@@ -1,0 +1,194 @@
+.mask{
+    width:100%;
+    height:100vh;
+    position: relative;
+
+}
+.into-img{
+    width:500px;
+    height:500px;
+   
+    object-fit: cover;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+/* p,
+h1,
+h2,
+h4,
+
+a{
+  color: rgb(79, 1, 1);
+  text-decoration: none;
+
+} */
+
+
+ .mask::after{
+    content:"";
+    width:100%;
+    height:90%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:rgb(3, 3, 3);
+    opacity: 0.9;
+} 
+
+/* .hero{
+    height:100%;
+    width: 100%;;
+} */
+
+/* .hero .content{
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    text-align: center;
+    
+
+} */
+
+ /* .hero .content h1{
+    font-size: 2.5rem;
+    padding: 0.6rem 1.5rem;
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:30%;
+    left:50%;
+    text-align: center;
+    margin-bottom: 10px;
+
+} */
+
+/* .hero .content h3{
+    font-size: 1.2rem;
+    padding: 0.6rem 1.5rem;
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:40%;
+    left:50%;
+    text-align: center;
+    margin-bottom: 10px;
+} */
+
+/* .hero .content p{
+    font-size: 1.1rem;
+    font-weight: 200;
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:60%;
+    left:50%;
+    text-align: center;
+    margin-bottom: 10px;
+
+}  */
+
+/* .button-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+} */
+
+
+/* .hero .btn-light{
+   margin: 1rem 0.2rem;
+   position:relative;
+    transform:translate(-50%, -50%);
+    text-align: center;
+    
+} */
+
+
+
+/* .hero .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+.hero .content h1,
+.hero .content h3,
+.hero .content p {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the text horizontally */
+}
+
+.hero .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero .content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.hero .content p {
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero .btn-light {
+    margin: 1rem 0.2rem;
+}
+
+.hero .content1 {
+    position: absolute;
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; 
+    
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+    .hero .content {
+      text-align: center; /* Center-align content on smaller screens */
+    }
+  
+    .hero .content h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+  
+    .hero .content h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+  
+    .hero .content p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+  
+    .button-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hero .btn-light {
+      margin: 1rem 0.2rem;
+    }
+  }
+  
+  

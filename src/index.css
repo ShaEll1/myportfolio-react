@@ -1,13 +1,129 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Lobster&family=Outfit:wght@200;300;400;500;600;700;800;900&family=Pixelify+Sans:wght@500&family=Young+Serif&display=swap');
+
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'AR One Sans', sans-serif;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-family: 'Young Serif', serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background: rgb(124, 123, 123);
+}
+
+h1,
+h4,
+p,
+a{
+  color: rgb(248, 243, 243);
+  text-decoration: none;
+
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+
+ .btn{
+  position: flex;
+  padding:5px 10px;
+  font-size: 0.8 rem;
+  background: rgb(153, 152, 152);
+  color: rgb(243, 237, 237);
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+  font-weight: 100;
+  cursor: pointer;
+  
+} 
+
+
+
+.btn-light{
+  background: rgb(153, 152, 152);
+    padding:10px 15px;
+    font-size: 1rem;
+    justify-content: space-between;
+    color: rgb(243, 239, 239);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    font-weight: 200;
+    cursor: pointer;
+    text-align: center;
+    width: 120px; 
+    
+      
+}
+.btn-light:hover{
+  background: rgb(233, 229, 229);
+  color: white;
+  transition: 0.3s;
+}
+.btn:hover{
+  background: rgb(233, 229, 229);
+  color: white;
+  transition: 0.3s;
+}
+
+
+.skills-container {
+  max-width: 100%;
+  margin: 0 auto;
+  
+}
+
+.skill-category {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: rgb(221, 220, 220);
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.skill-category h1 {
+  color: #0f0e0e;
+}
+
+
+.skill-category h3 {
+  color: #0a0909;
+  margin-bottom: 10px;
+  
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+li {
+  margin-bottom: 10px;
+  
+}
+
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 150px;
+}
+
+.progress-bar {
+  width: 500px; 
+  height: 10px;
+  background-color: #ddd;
+  margin-right: 100px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #080808; 
 }

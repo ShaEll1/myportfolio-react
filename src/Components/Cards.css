@@ -1,0 +1,92 @@
+/* Cards.css */
+
+.cards {
+    width: 100%;
+    padding: 6rem;
+    background: rgb(43, 41, 41);
+}
+
+.cards-container {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.cards-border {
+    border: 5px solid rgb(104, 105, 105);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: calc(33.33% - 20px); 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3,
+p {
+    color: rgb(245, 242, 242);
+}
+
+.bar {
+    display: block;
+    height: 2px;
+    width: 50px;
+    background: rgb(238, 235, 235);
+    margin: 10px auto;
+}
+
+.posterimg {
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+
+
+
+.publications {
+    margin-top: 4rem; 
+  }
+  
+  .publication-item {
+    border: 2px solid rgb(104, 105, 105);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px; 
+  }
+  
+  .publication-item h3 {
+    padding-bottom: 1rem;
+     color: rgb(245, 242, 242);
+  }
+  
+  .publication-item p {
+    color: rgb(245, 242, 242);
+  }
+  
+
+  .publication-item h3 a:hover  {
+    color: rgb(68, 67, 67); 
+    
+  }
+
+@media screen and (max-width: 740px) {
+    .cards-container {
+        max-width: 90%;
+        margin: auto;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    
+    .cards-border {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
